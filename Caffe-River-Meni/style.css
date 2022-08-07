@@ -1,0 +1,1766 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+@media (min-width: 1000px) {
+  body {
+    display: none;
+  }
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 7rem;
+  letter-spacing: 5px;
+  color: #cba320;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 0 0 3px #cba320;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  h1 {
+    font-size: 6rem;
+    margin-bottom: 70px;
+  }
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  color: #cba320;
+  text-transform: uppercase;
+  text-shadow: 0 0 3px #cba320;
+  font-weight: 400;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #caced6;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  h3 {
+    font-size: 1.7rem;
+  }
+}
+
+h3:hover {
+  color: #cba320;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  color: #cba320;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 0 0 3px #cba320;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  h4 {
+    font-size: 1.3rem;
+    margin: 50px 0;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  h4 {
+    font-size: 1.8rem;
+    margin: 50px 0;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  h4 {
+    font-size: 2rem;
+    margin: 50px 0;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  h4 {
+    font-size: 2.2rem;
+    margin: 50px 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  h4 {
+    font-size: 3rem;
+    margin: 50px 0;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  h4 {
+    font-size: 4rem;
+    margin: 50px 0;
+  }
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 7rem;
+  letter-spacing: 5px;
+  color: #cba320;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 0 0 3px #cba320;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  h5 {
+    font-size: 1.3rem;
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  h5 {
+    font-size: 1.8rem;
+    margin-bottom: 90px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  h5 {
+    font-size: 2rem;
+    margin-bottom: 90px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  h5 {
+    font-size: 2.2rem;
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  h5 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  h5 {
+    font-size: 4rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+small {
+  font-size: 1rem;
+  opacity: .7;
+  color: #cba320;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #caced6;
+  color: #0c1f32;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 40%;
+  font-size: 1.2rem;
+  opacity: .8;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  #myBtn {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  #myBtn {
+    font-size: 1.1rem;
+    padding: 15px;
+  }
+}
+
+#myBtn:hover {
+  background: #0c1f32;
+  color: #caced6;
+}
+
+#preloader {
+  background: #000 url(img/Preloader_1.gif) no-repeat center center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#preloader p {
+  color: #cba320;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-top: 300px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-shadow: 0 0 3px #cba320;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  #preloader p {
+    font-size: 1rem;
+    margin-top: 110px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  #preloader p {
+    font-size: 1.2rem;
+    margin-top: 130px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  #preloader p {
+    font-size: 1.3rem;
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  #preloader p {
+    font-size: 1.5rem;
+    margin-top: 170px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  #preloader p {
+    font-size: 1.7rem;
+    margin-top: 180px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  #preloader p {
+    font-size: 2rem;
+    margin-top: 220px;
+  }
+}
+
+.container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/background1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/background1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 200px 0;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .container header {
+    padding: 80px 0;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .container header {
+    padding: 90px 0;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .container header {
+    padding: 100px 0;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  .container header {
+    padding: 110px 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  .container header {
+    padding: 130px 0;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  .container header {
+    padding: 130px 0;
+  }
+}
+
+.container header button {
+  width: 300px;
+  color: #caced6;
+  padding: 20px 60px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 50px;
+  z-index: 0;
+  background: #0c1f32;
+  overflow: hidden;
+  border: 2px solid #caced6;
+  color: #caced6;
+  font-size: 2rem;
+}
+
+.container header button:hover {
+  color: #0c1f32;
+}
+
+.container header button:hover:after {
+  width: 100%;
+}
+
+.container header button:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #caced6;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .container header button {
+    width: 160px;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .container header button {
+    width: 200px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .container header button {
+    width: 250px;
+    font-size: 1.7rem;
+  }
+}
+
+.container iframe {
+  opacity: .8;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .container iframe {
+    height: 300px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .container iframe {
+    height: 350px;
+  }
+}
+
+.container footer {
+  text-align: center;
+  color: #caced6;
+  padding: 100px 0;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .container footer {
+    padding: 60px 0;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .container footer {
+    padding: 70px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .container footer {
+    padding: 80px 0;
+  }
+}
+
+.container footer .after::after {
+  content: '';
+  margin: 50px auto;
+  width: 10%;
+  height: 5px;
+  background-color: #cba320;
+  display: block;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .container footer .after::after {
+    width: 100px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .container footer .after::after {
+    width: 150px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .container footer .after::after {
+    width: 180px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  .container footer .after::after {
+    width: 200px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  .container footer .after::after {
+    width: 220px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  .container footer .after::after {
+    width: 240px;
+  }
+}
+
+.container footer p {
+  font-size: 1.5rem;
+  color: #caced6;
+  line-height: 2;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .container footer p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .container footer p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .container footer p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  .container footer p {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  .container footer p {
+    font-size: 2rem;
+  }
+}
+
+.container footer p span {
+  color: #fff;
+}
+
+.container footer a {
+  color: #fff;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.container footer a:hover {
+  color: #cba320;
+}
+
+.container footer a i {
+  font-size: 2.5rem;
+  margin: 20px 20px 0 20px;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .container footer a i {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .container footer a i {
+    font-size: 2.2rem;
+  }
+}
+
+.container .bottom-bar {
+  background-color: #0c1f32;
+  padding: 40px 20px;
+  text-align: center;
+  color: #caced6;
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .container .bottom-bar p {
+    font-size: .9rem;
+  }
+}
+
+.container .bottom-bar p a {
+  color: #caced6;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.container .bottom-bar p a:hover {
+  color: #cba320;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  nav {
+    padding: 20px 20px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  nav {
+    padding: 20px 30px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  nav {
+    padding: 20px 30px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  nav {
+    padding: 20px 30px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  nav {
+    padding: 20px 30px;
+  }
+}
+
+nav .logo {
+  border-bottom: 5px solid #cba320;
+}
+
+nav .icons a {
+  color: #caced6;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+nav .icons a:hover {
+  color: #cba320;
+}
+
+nav .icons a i {
+  font-size: 2.5rem;
+  margin: 20px 20px 0 20px;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  nav .icons a i {
+    font-size: 1.5rem;
+    margin: 0 10px 0 10px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  nav .icons a i {
+    font-size: 1.7rem;
+    margin: 0 10px 0 10px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  nav .icons a i {
+    font-size: 1.7rem;
+    margin: 0 10px 0 10px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  nav .icons a i {
+    font-size: 1.7rem;
+    margin: 0 10px 0 10px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  nav .icons a i {
+    font-size: 2rem;
+    margin: 0 10px 0 10px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  nav .icons a i {
+    font-size: 2.2rem;
+    margin: 0 10px 0 20px;
+  }
+}
+
+.header-meni a button {
+  width: 300px;
+  color: #caced6;
+  padding: 20px 60px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 50px;
+  z-index: 0;
+  background: #0c1f32;
+  overflow: hidden;
+  border: 2px solid #caced6;
+  color: #caced6;
+  font-size: 2rem;
+}
+
+.header-meni a button:hover {
+  color: #0c1f32;
+}
+
+.header-meni a button:hover:after {
+  width: 100%;
+}
+
+.header-meni a button:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #caced6;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .header-meni a button {
+    width: 140px;
+    font-size: 1rem;
+    padding: 20px 20px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .header-meni a button {
+    width: 160px;
+    font-size: .9rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .header-meni a button {
+    width: 180px;
+    font-size: .9rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  .header-meni a button {
+    width: 200px;
+    font-size: 1rem;
+    padding: 20px 20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  .header-meni a button {
+    width: 220px;
+    font-size: 1.2rem;
+    padding: 20px 30px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  .header-meni a button {
+    font-size: 1.5rem;
+  }
+}
+
+.meni {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.meni .left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48%;
+          flex: 0 0 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .meni .left {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .meni .left {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .meni .left {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  .meni .left {
+    margin-bottom: 70px;
+  }
+}
+
+.meni .left div {
+  margin-bottom: 30px;
+}
+
+.meni .left div button {
+  width: 600px;
+  color: #caced6;
+  padding: 40px 80px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 50px;
+  z-index: 0;
+  background: #0c1f32;
+  overflow: hidden;
+  border: 2px solid #caced6;
+  color: #caced6;
+  font-size: 2rem;
+}
+
+.meni .left div button:hover {
+  color: #0c1f32;
+}
+
+.meni .left div button:hover:after {
+  width: 100%;
+}
+
+.meni .left div button:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #caced6;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .meni .left div button {
+    width: 250px;
+    color: #caced6;
+    padding: 20px 40px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: 1rem;
+  }
+  .meni .left div button:hover {
+    color: #0c1f32;
+  }
+  .meni .left div button:hover:after {
+    width: 100%;
+  }
+  .meni .left div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .meni .left div button {
+    width: 170px;
+    color: #caced6;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: .9rem;
+  }
+  .meni .left div button:hover {
+    color: #0c1f32;
+  }
+  .meni .left div button:hover:after {
+    width: 100%;
+  }
+  .meni .left div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .meni .left div button {
+    width: 200px;
+    color: #caced6;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: 1rem;
+  }
+  .meni .left div button:hover {
+    color: #0c1f32;
+  }
+  .meni .left div button:hover:after {
+    width: 100%;
+  }
+  .meni .left div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  .meni .left div button {
+    width: 220px;
+    color: #caced6;
+    padding: 20px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: 1.1rem;
+  }
+  .meni .left div button:hover {
+    color: #0c1f32;
+  }
+  .meni .left div button:hover:after {
+    width: 100%;
+  }
+  .meni .left div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  .meni .left div button {
+    width: 280px;
+    color: #caced6;
+    padding: 20px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .meni .left div button:hover {
+    color: #0c1f32;
+  }
+  .meni .left div button:hover:after {
+    width: 100%;
+  }
+  .meni .left div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  .meni .left div button {
+    width: 330px;
+    color: #caced6;
+    padding: 20px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  .meni .left div button:hover {
+    color: #0c1f32;
+  }
+  .meni .left div button:hover:after {
+    width: 100%;
+  }
+  .meni .left div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+.meni .right {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48%;
+          flex: 0 0 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .meni .right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .meni .right {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .meni .right {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  .meni .right {
+    margin-bottom: 70px;
+  }
+}
+
+.meni .right div {
+  margin-bottom: 30px;
+}
+
+.meni .right div button {
+  width: 600px;
+  color: #caced6;
+  padding: 40px 80px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 50px;
+  z-index: 0;
+  background: #0c1f32;
+  overflow: hidden;
+  border: 2px solid #caced6;
+  color: #caced6;
+  font-size: 2rem;
+}
+
+.meni .right div button:hover {
+  color: #0c1f32;
+}
+
+.meni .right div button:hover:after {
+  width: 100%;
+}
+
+.meni .right div button:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #caced6;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .meni .right div button {
+    width: 250px;
+    color: #caced6;
+    padding: 20px 40px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: 1rem;
+  }
+  .meni .right div button:hover {
+    color: #0c1f32;
+  }
+  .meni .right div button:hover:after {
+    width: 100%;
+  }
+  .meni .right div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .meni .right div button {
+    width: 170px;
+    color: #caced6;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: .9rem;
+  }
+  .meni .right div button:hover {
+    color: #0c1f32;
+  }
+  .meni .right div button:hover:after {
+    width: 100%;
+  }
+  .meni .right div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .meni .right div button {
+    width: 200px;
+    color: #caced6;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: 1rem;
+  }
+  .meni .right div button:hover {
+    color: #0c1f32;
+  }
+  .meni .right div button:hover:after {
+    width: 100%;
+  }
+  .meni .right div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  .meni .right div button {
+    width: 220px;
+    color: #caced6;
+    padding: 20px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: 1.1rem;
+  }
+  .meni .right div button:hover {
+    color: #0c1f32;
+  }
+  .meni .right div button:hover:after {
+    width: 100%;
+  }
+  .meni .right div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  .meni .right div button {
+    width: 280px;
+    color: #caced6;
+    padding: 20px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .meni .right div button:hover {
+    color: #0c1f32;
+  }
+  .meni .right div button:hover:after {
+    width: 100%;
+  }
+  .meni .right div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  .meni .right div button {
+    width: 330px;
+    color: #caced6;
+    padding: 20px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50px;
+    z-index: 0;
+    background: #0c1f32;
+    overflow: hidden;
+    border: 2px solid #caced6;
+    color: #caced6;
+    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  .meni .right div button:hover {
+    color: #0c1f32;
+  }
+  .meni .right div button:hover:after {
+    width: 100%;
+  }
+  .meni .right div button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #caced6;
+  }
+}
+
+.header-drinks div img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 60px;
+  -webkit-box-shadow: 22px 22px 40px 0px rgba(0, 0, 0, 0.7) inset;
+          box-shadow: 22px 22px 40px 0px rgba(0, 0, 0, 0.7) inset;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .header-drinks div img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .header-drinks div img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .header-drinks div img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  .header-drinks div img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  .header-drinks div img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.header-drinks a {
+  font-size: 4rem;
+  color: #caced6;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.header-drinks a button {
+  width: 300px;
+  color: #caced6;
+  padding: 20px 60px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 50px;
+  z-index: 0;
+  background: #0c1f32;
+  overflow: hidden;
+  border: 2px solid #caced6;
+  color: #caced6;
+  font-size: 2rem;
+}
+
+.header-drinks a button:hover {
+  color: #0c1f32;
+}
+
+.header-drinks a button:hover:after {
+  width: 100%;
+}
+
+.header-drinks a button:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #caced6;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .header-drinks a button {
+    width: 160px;
+    font-size: 1rem;
+    padding: 20px 20px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .header-drinks a button {
+    width: 180px;
+    font-size: .9rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .header-drinks a button {
+    width: 180px;
+    font-size: .9rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  .header-drinks a button {
+    width: 200px;
+    font-size: 1rem;
+    padding: 20px 20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  .header-drinks a button {
+    width: 220px;
+    font-size: 1.2rem;
+    padding: 20px 30px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  .header-drinks a button {
+    font-size: 1.5rem;
+  }
+}
+
+.header-drinks a:hover {
+  color: #cba320;
+}
+
+.prices {
+  padding: 20px 60px;
+  font-size: 2rem;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .prices {
+    padding: 20px 20px;
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .prices {
+    padding: 20px 20px;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 501px) {
+  .prices {
+    padding: 20px 20px;
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 601px) {
+  .prices {
+    padding: 30px 30px;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 760px) {
+  .prices {
+    padding: 30px 30px;
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+  }
+}
+
+.prices .drink {
+  color: #caced6;
+}
+
+.prices .drink div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 5px dotted #caced6;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.prices .drink div span {
+  color: #cba320;
+}
+/*# sourceMappingURL=style.css.map */
