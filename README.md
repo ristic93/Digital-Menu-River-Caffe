@@ -1,5 +1,4 @@
-# Digitalni-Meni-River-Caffe
+Digital menu for a caffe bar. Made with HTML, SASS & JavaScript. 
+Made for displays like smart phones and tablets. 
 
-http://river-caffe.rs/index.html
-
-Responsive website made for mobiles and tablets, so dont forget to inspect site when u want to see it.
+http://river-caffe.rs/
